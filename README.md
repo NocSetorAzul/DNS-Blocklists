@@ -8,9 +8,9 @@ Repositório focado na centralização e organização de listas de bloqueio de 
 
 ## 📂 Categorias e Links Diretos (Raw)
 
-Para utilizar no seu servidor ou firewall, basta copiar o link da coluna **Link Raw (Unbound DNS)** correspondente à categoria que deseja bloquear.
+Para utilizar no seu servidor ou firewall, basta copiar o link correspondente à categoria que deseja bloquear.
 
-| Categoria | Descrição / Escopo do Bloqueio | Link Raw (Unbound DNS) |
+| Categoria | Descrição / Escopo do Bloqueio | Link |
 | :--- | :--- | :--- |
 | 💬 **Comunicação** | Redes sociais, plataformas de chat, comunidades e fóruns. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Comunicacao/redes%20sociais.txt) |
 | 🎮 **Games** | Plataformas de jogos virtuais, lojas digitais e consoles. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Games/Consoles.txt) |
