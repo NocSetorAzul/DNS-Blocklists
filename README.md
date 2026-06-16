@@ -1,42 +1,43 @@
 # Repositório de Listas de Bloqueio de Domínios (Blocklists)
 
-Este repositório contém listas de bloqueio de domínios organizadas por categorias específicas para otimizar o gerenciamento de tráfego, produtividade e segurança de rede. As listas estão estruturadas no formato de texto puro (planilha de domínios ou hosts), sendo ideais para integração com ferramentas de filtragem DNS como **Pi-hole**, **AdGuard Home**, **pfBlockerNG (pfSense)**, **OPNsense**, ou firewalls corporativos.
+# DNS-Blocklists (Exclusivo Unbound DNS)
 
-## 📂 Organização e Categorias
+> ⚠️ **IMPORTANTE:** Este repositório e as suas listas foram desenvolvidos **exclusivamente para o Unbound DNS**. Os links abaixo entregam os domínios prontos para integração direta nas diretivas do Unbound.
 
-As listas estão divididas nos seguintes grupos estruturados:
-
-| Identificador do Grupo | Descrição / Escopo do Bloqueio |
-| :--- | :--- |
-| `GRP_COMPRAS_MARKETPLACES_VAREJO_GERAL` | Grandes e-commerces, marketplaces e lojas de varejo generalista. |
-| `GRP_COMPRAS_MODA_ACESSORIOS` | Lojas de vestuário, moda, roupas, calçados e acessórios em geral. |
-| `GRP_COMPRAS_ELETRONICOS_TECNOLOGIA` | Portais de venda de eletrônicos, componentes de informática e tecnologia. |
-| `GRP_COMPRAS_GAMES_CONSOLES` | Plataformas, lojas de jogos virtuais, consoles e e-commerces de games. |
-| `GRP_COMPRAS_CASA_MOVEIS_DECORACAO` | Lojas de móveis, itens de decoração, materiais de construção e ferramentas. |
-| `GRP_COMPRAS_SUPERMERCADO_VAREJO_ALIMENTAR`| Redes de supermercados e plataformas de e-commerce de alimentos. |
-| `GRP_COMPRAS_IMPORTADOS_INTERNACIONAIS` | Sites e marketplaces focados em compras e importações internacionais. |
-| `GRP_COMPRAS_CURSOS_DIGITAIS_INFOPRODUTOS`| Plataformas de cursos online, livrarias, infoprodutos e bens digitais. |
-| `GRP_COMPRAS_COSMETICOS_PERFUMARIA` | E-commerces de cosméticos, produtos de beleza, maquiagem e perfumaria. |
-| `GRP_COMUNICACAO_REDES_SOCIAIS` | Redes sociais, plataformas de comunicação, comunidades e fóruns, e streaming de música de uso social. |
-| `GRP_NOTICIAS_PORTAIS_ESPORTES` | Portais informativos, sites de notícias gerais e cobertura esportiva. |
-| `GRP_STREAMING_VIDEO_AUDIO` | Serviços de streaming legítimos de vídeo, áudio, TV por internet e entretenimento. |
-| `GRP_PIRATARIA_STREAMING_ILEGAL` | Portais de distribuição pirata, plataformas de streaming ilegal (IPTV não oficial) e domínios de alto risco associados. |
+Repositório focado na centralização e organização de listas de bloqueio de domínios para aumento de produtividade, otimização de banda e segurança de redes administradas via Unbound DNS.
 
 ---
 
-## 🛠️ Como Utilizar
+## 📂 Categorias e Links Diretos (Raw)
 
-Cada grupo acima corresponde a um arquivo `.txt` na raiz ou na pasta correspondente deste repositório (ex: `GRP_COMPRAS_MARKETPLACES_VAREJO_GERAL.txt`).
+Para utilizar no seu servidor ou firewall, basta copiar o link da coluna **Link Raw (Unbound DNS)** correspondente à categoria que deseja bloquear.
 
-### Exemplos de Integração:
+| Categoria | Descrição / Escopo do Bloqueio | Link Raw (Unbound DNS) |
+| :--- | :--- | :--- |
+| 💬 **Comunicação** | Redes sociais, plataformas de chat, comunidades e fóruns. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Comunicacao/redes%20sociais.txt) |
+| 🎮 **Games** | Plataformas de jogos virtuais, lojas digitais e consoles. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Games/Consoles.txt) |
+| ✈️ **Lojas: Importados** | Marketplaces de compras internacionais e importações. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/compras%20internacionais.txt) |
+| 📚 **Lojas: Cursos** | Plataformas de infoprodutos, cursos digitais e e-books. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/cursos.txt) |
+| 🏠 **Lojas: Decoração** | Portais de móveis, decoração, ferramentas e construção. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/decoracao.txt) |
+| 💻 **Lojas: Eletrónicos** | E-commerces de informática, hardware, tecnologia e eletrodomésticos. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/eletronicos.txt) |
+| 🛒 **Lojas: Marketplaces** | Grandes e-commerces e portais de varejo generalistas. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/marketplaces.txt) |
+| 👗 **Lojas: Moda** | Lojas de vestuário, vestes, calçados e acessórios de moda. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/moda.txt) |
+| 🍎 **Mercado** | Redes de supermercados e plataformas de varejo alimentar. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Mercado/mercado.txt) |
+| 📰 **Notícias** | Portais de notícias informativas e cobertura desportiva. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Noticias/esportes.txt) |
+| 🎬 **Streaming: Legal** | Serviços oficiais de streaming de vídeo, áudio e entretenimento. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/legal.txt) |
+| ☠️ **Streaming: Pirata** | Plataformas de streaming ilegal, IPTV pirata e domínios de risco associados. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/pirata.txt) |
 
-#### 1. Pi-hole / AdGuard Home
-Basta copiar a URL do arquivo no modo **Raw** do GitHub e adicioná-la nas configurações de *Adlists* (Pi-hole) ou *Filtros DNS* (AdGuard Home).
-
-#### 2. pfBlockerNG / OPNsense
-Configure um novo alias do tipo **DNSBL** apontando para a URL Raw do grupo desejado para automatizar o download e o bloqueio periódico de toda a categoria.
+> 📌 **Dica sobre Espaços em Branco:** Para os ficheiros que contêm espaços no nome (como `redes sociais.txt`), os links acima já utilizam o padrão `%20` exigido pelo GitHub para evitar quebras de URL.
 
 ---
+
+## 🛠️ Como Utilizar no Unbound DNS
+
+Pode injetar as listas diretamente nas configurações do seu Unbound (`unbound.conf`) utilizando as diretivas de controle de zonas locais ou RPZ (conforme a compilação do seu ambiente).
+
+### Exemplo Prático com Zonas Locais (Local-Zone):
+
+[https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/pirata.txt](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/pirata.txt)
 
 ## 🤝 Como Contribuir
 
