@@ -12,18 +12,18 @@ Para utilizar no seu servidor ou firewall, basta copiar o link da coluna **Link 
 
 | Categoria | Descrição / Escopo do Bloqueio | Link Raw (Unbound DNS) |
 | :--- | :--- | :--- |
-| 💬 **Comunicação** | Redes sociais, plataformas de chat, comunidades e fóruns. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Comunicacao/redes%20sociais.txt) |
-| 🎮 **Games** | Plataformas de jogos virtuais, lojas digitais e consoles. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Games/Consoles.txt) |
-| ✈️ **Lojas: Importados** | Marketplaces de compras internacionais e importações. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/compras%20internacionais.txt) |
-| 📚 **Lojas: Cursos** | Plataformas de infoprodutos, cursos digitais e e-books. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/cursos.txt) |
-| 🏠 **Lojas: Decoração** | Portais de móveis, decoração, ferramentas e construção. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/decoracao.txt) |
-| 💻 **Lojas: Eletrónicos** | E-commerces de informática, hardware, tecnologia e eletrodomésticos. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/eletronicos.txt) |
-| 🛒 **Lojas: Marketplaces** | Grandes e-commerces e portais de varejo generalistas. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/marketplaces.txt) |
-| 👗 **Lojas: Moda** | Lojas de vestuário, vestes, calçados e acessórios de moda. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/moda.txt) |
-| 🍎 **Mercado** | Redes de supermercados e plataformas de varejo alimentar. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Mercado/mercado.txt) |
-| 📰 **Notícias** | Portais de notícias informativas e cobertura desportiva. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Noticias/esportes.txt) |
-| 🎬 **Streaming: Legal** | Serviços oficiais de streaming de vídeo, áudio e entretenimento. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/legal.txt) |
-| ☠️ **Streaming: Pirata** | Plataformas de streaming ilegal, IPTV pirata e domínios de risco associados. | [Aceder Lista Raw](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/pirata.txt) |
+| 💬 **Comunicação** | Redes sociais, plataformas de chat, comunidades e fóruns. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Comunicacao/redes%20sociais.txt) |
+| 🎮 **Games** | Plataformas de jogos virtuais, lojas digitais e consoles. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Games/Consoles.txt) |
+| ✈️ **Lojas: Importados** | Marketplaces de compras internacionais e importações. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/compras%20internacionais.txt) |
+| 📚 **Lojas: Cursos** | Plataformas de infoprodutos, cursos digitais e e-books. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/cursos.txt) |
+| 🏠 **Lojas: Decoração** | Portais de móveis, decoração, ferramentas e construção. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/decoracao.txt) |
+| 💻 **Lojas: Eletrónicos** | E-commerces de informática, hardware, tecnologia e eletrodomésticos. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/eletronicos.txt) |
+| 🛒 **Lojas: Marketplaces** | Grandes e-commerces e portais de varejo generalistas. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/marketplaces.txt) |
+| 👗 **Lojas: Moda** | Lojas de vestuário, vestes, calçados e acessórios de moda. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Lojas/moda.txt) |
+| 🍎 **Mercado** | Redes de supermercados e plataformas de varejo alimentar. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Mercado/mercado.txt) |
+| 📰 **Notícias** | Portais de notícias informativas e cobertura desportiva. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Noticias/esportes.txt) |
+| 🎬 **Streaming: Legal** | Serviços oficiais de streaming de vídeo, áudio e entretenimento. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/legal.txt) |
+| ☠️ **Streaming: Pirata** | Plataformas de streaming ilegal, IPTV pirata e domínios de risco associados. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/pirata.txt) |
 
 > 📌 **Dica sobre Espaços em Branco:** Para os ficheiros que contêm espaços no nome (como `redes sociais.txt`), os links acima já utilizam o padrão `%20` exigido pelo GitHub para evitar quebras de URL.
 
