@@ -1,7 +1,5 @@
 # Repositório de Listas de Bloqueio de Domínios (Blocklists)
 
-# DNS-Blocklists (Exclusivo Unbound DNS)
-
 > ⚠️ **IMPORTANTE:** Este repositório e as suas listas foram desenvolvidos **exclusivamente para o Unbound DNS**. Os links abaixo entregam os domínios prontos para integração direta nas diretivas do Unbound.
 
 Repositório focado na centralização e organização de listas de bloqueio de domínios para aumento de produtividade, otimização de banda e segurança de redes administradas via Unbound DNS.
