@@ -33,10 +33,6 @@ Para utilizar no seu servidor ou firewall, basta copiar o link correspondente à
 
 Pode injetar as listas diretamente nas configurações do seu Unbound (`unbound.conf`) utilizando as diretivas de controle de zonas locais ou RPZ (conforme a compilação do seu ambiente).
 
-### Exemplo Prático com Zonas Locais (Local-Zone):
-
-[https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/pirata.txt](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Streaming/pirata.txt)
-
 ## 🤝 Como Contribuir
 
 Identificou um domínio que mudou ou quer adicionar novos sites à lista?
