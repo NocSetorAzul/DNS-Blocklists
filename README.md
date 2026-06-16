@@ -10,7 +10,7 @@ Repositório focado na centralização e organização de listas de bloqueio de 
 
 Para utilizar no seu servidor ou firewall, basta copiar o link correspondente à categoria que deseja bloquear.
 
-| Categoria | Descrição / Escopo do Bloqueio | Link |
+| Categoria | Descrição / Escopo do Bloqueio | Link raw |
 | :--- | :--- | :--- |
 | 💬 **Comunicação** | Redes sociais, plataformas de chat, comunidades e fóruns. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Comunicacao/redes%20sociais.txt) |
 | 🎮 **Games** | Plataformas de jogos virtuais, lojas digitais e consoles. | [Link](https://raw.githubusercontent.com/NocSetorAzul/DNS-Blocklists/refs/heads/main/Games/Consoles.txt) |
